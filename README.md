@@ -1,2 +1,6 @@
 # data_engineering - workshop notes 
-NAME - SANDEEP KUMAR SEERAM 
+
+
+Task1 - Run a Google Cloud Dataflow batch pipeline to import the data into BigQuery, and push errors to another dead-letter table for analysis.  
+
+# Learning Points
