@@ -30,3 +30,16 @@ Dataproc is used to migrate Hadoop and Spark jobs on GCP. Dataproc with GCS conn
  Have each application server write the bid events to Google Cloud Pub/Sub as they occur. Use a pull subscription to pull the bid events using Google Cloud Dataflow. Give the bid for each item to the user in the bid event that is processed first.
 
  The need is to collate the messages in real-time. We need to de-dupe the messages based on timestamp of when the event occurred. This can be done by publishing ot Pub-Sub and consuming via Dataflow.
+
+
+ # BigQuery Schema Syntax - Example: 
+
+ride_id:string,
+point_idx:integer,
+latitude:float,
+longitude:float,
+timestamp:timestamp,
+meter_reading:float,
+meter_increment:float,
+ride_status:string,
+passenger_count:integer
