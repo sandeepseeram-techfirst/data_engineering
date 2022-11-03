@@ -32,14 +32,6 @@ Dataproc is used to migrate Hadoop and Spark jobs on GCP. Dataproc with GCS conn
  The need is to collate the messages in real-time. We need to de-dupe the messages based on timestamp of when the event occurred. This can be done by publishing ot Pub-Sub and consuming via Dataflow.
 
 
- # BigQuery Schema Syntax - Example: 
+ # Data Engineer 
 
-ride_id:string,
-point_idx:integer,
-latitude:float,
-longitude:float,
-timestamp:timestamp,
-meter_reading:float,
-meter_increment:float,
-ride_status:string,
-passenger_count:integer
+Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data. A Data Engineer should be able to design, build, operationalize, secure, and monitor data processing systems with a particular emphasis on security and compliance; scalability and efficiency; reliability and fidelity; and flexibility and portability. A Data Engineer should also be able to leverage, deploy, and continuously train pre-existing machine learning models.
