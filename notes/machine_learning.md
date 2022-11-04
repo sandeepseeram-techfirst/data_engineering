@@ -22,3 +22,12 @@ of both to bring us one step closer. At Google, they call it Wide & Deep Learnin
 large-scale regression and classification problems with sparse inputs (categorical features with a
 large number of possible feature values), such as recommender systems, search, and ranking
 problems.
+
+
+If model parameters are variables that get adjusted by training with existing data, your hyperparameters are the variables about the training process itself. 
+
+For example, part of setting up a deep neural network is deciding how many "hidden" layers of nodes to use between the input layer and the output layer, as well as how many nodes each layer should use. These variables are not directly related to the training data at all. 
+
+They are configuration variables. Another difference is that parameters change during a training job, while the hyperparameters are usually constant during a job.
+
+Weights and biases are variables that get adjusted during the training process, so they are not hyperparameters.
