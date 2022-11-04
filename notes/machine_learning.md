@@ -8,3 +8,17 @@ well the model has generalized to new unseen data. A model that is selected for 
 training dataset rather than its accuracy on an unseen test dataset is very likely to have lower
 accuracy on an unseen test dataset. The reason is that the model is not as generalized. It has
 specialized to the structure in the training dataset. This is called overfitting.
+
+
+A neural network is a simple mechanism thats implemented with basic math. 
+The only difference between the traditional programming model and a neural network is that you 
+let the computer determine the parameters (weights and bias) by learning from training datasets.
+
+
+Can we teach computers to learn like humans do, by combining the power of memorization and
+generalization? It's not an easy question to answer, but by jointly training a wide linear model (for
+memorization) alongside a deep neural network (for generalization), one can combine the strengths
+of both to bring us one step closer. At Google, they call it Wide & Deep Learning. It's useful for generic
+large-scale regression and classification problems with sparse inputs (categorical features with a
+large number of possible feature values), such as recommender systems, search, and ranking
+problems.
