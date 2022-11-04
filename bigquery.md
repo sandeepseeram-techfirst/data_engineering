@@ -24,3 +24,9 @@ SELECT
  SUM(passenger_count) AS total_passengers
 FROM streaming_data
 GROUP BY minute, timestamp
+
+# Columns
+
+A column is called categorical if its value can only be one of the categories in a finite set. For example, the native country of a person (U.S., India, Japan, etc.) or the education level (high school, college, etc.) are categorical columns.
+
+A column is called continuous if its value can be any numerical value in a continuous range. For example, the capital gain of a person (e.g. $14,084) is a continuous column.
